@@ -1,7 +1,11 @@
 FROM gitpod/workspace-full-vnc@sha256:331a933c3bce7d7cb3e78f8cfac93ae706091575758adeba3a86072d585e52b0
 
-ARG ANDROID_STUDIO_URL=https://dl.google.com/dl/android/studio/ide-zips/4.0.0.16/android-studio-ide-193.6514223-linux.tar.gz
-ARG ANDROID_STUDIO_VERSION=4.0
+# ARG ANDROID_STUDIO_URL=https://dl.google.com/dl/android/studio/ide-zips/4.0.0.16/android-studio-ide-193.6514223-linux.tar.gz
+# ARG ANDROID_STUDIO_VERSION=4.0
+
+ARG ANDROID_STUDIO_URL=https://dl.google.com/dl/android/studio/ide-zips/2022.1.1.20/android-studio-2022.1.1.20-linux.tar.gz
+ARG ANDROID_STUDIO_VERSION=2022.1
+
 
 USER root
 
